@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Currency rate converter</h1>
+        <div class="box">
+            <div class="outer">
+                <div class="name">
+                    <img src="https://flagsapi.com/AE/shiny/64.png" alt="no image found">
+                    <P id="con1_name">United Arab Emirates</P>
+                </div>
+                <div class="name">
+                    <img src="https://flagsapi.com/AE/shiny/64.png" alt="no image found" srcset="">
+                    <P id="con2_name">United Arab Emirates</P>
+                </div>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Enter amount" id="amount">
+            </div>
+            <div class="list">
+                <select class="select-list" name="country_code" id="country1">
+                </select>
+                <p>TO</p>
+                <select class="select-list" id="country2">
+                </select>
+            </div>
+            <div class="result">
+                <p id="rates">1</p>
+            </div>
+            <button id="convert_btn">Convert</button>
+        </div>
+    </div>
+    <script src="code.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

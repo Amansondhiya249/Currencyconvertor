@@ -1,0 +1,120 @@
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(231, 227, 227);
+    /* background: linear-gradient(45deg,green ,white,orange); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,147,139,1) 16%, rgba(7,37,152,1) 30%, rgba(0,212,255,1) 55%, rgba(9,9,121,1) 96%) */
+}
+.main{
+    border: 1px solid black ;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;  
+    text-align: center;
+    background-color: white;
+    box-shadow: 6px 5px 10px white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.list{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.list select{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+
+}
+.select-list{
+    width: 50%;
+}
+/* .img{
+    /* border: 1px  solid black; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+img{
+    margin: 20px;
+    margin-bottom: 0px;
+    width: 50%;
+}
+.result{
+    width: 90%;
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+        margin-bottom: 10px;
+}
+.result p{
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+   
+    margin: 0%;
+   
+}
+button{
+    height: 40px;
+     border: 1px solid rgb(104, 174, 255);
+    font-weight: bold;
+    /* border-radius: 10px; */
+    width: 91%;
+    font-size: large;
+    background-color: rgb(62, 163, 245);
+    color: white;
+
+}
+button:hover{
+
+    border: 1px solid black;
+}
+.name{
+    display: flex;
+     /* border: 1px solid black;  */
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.name p{
+    margin: 20px;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    /* font-weight: 300; */
+    text-align: center;
+    width: 50%;
+
+
+}
+.outer{
+    display: flex;
+    width: 100%;
+}
+.input{
+    width: 100%;
+
+}
+#amount{
+    width: 85%;
+    height: 25px;
+}
+
